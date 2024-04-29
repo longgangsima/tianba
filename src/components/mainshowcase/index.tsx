@@ -1,6 +1,7 @@
 // components/MainShowcase.tsx
 import React, { useState } from 'react';
 import MainShowcaseImage from '../../app/images/mianshowcase.jpg';
+
 const MainShowcase: React.FC = () => {
   // States to control the visibility of the popout panels
   const [showWomen, setShowWomen] = useState(false);
@@ -17,9 +18,7 @@ const MainShowcase: React.FC = () => {
         style={{ backgroundImage: `url(${MainShowcaseImage.src})` }}
       >
         <h1 className="text-5xl text-white font-bold mb-4">New arrivals are here</h1>
-        <p className="text-lg text-white mb-6">
-          Check out the latest options from our summer small-batch release while they're still in stock.
-        </p>
+        <p className="text-lg text-white mb-6">Check out the latest options from our summer</p>
         <a className="text-white bg-blue-500 px-6 py-2 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300 cursor-pointer">
           Shop New Arrivals
         </a>
